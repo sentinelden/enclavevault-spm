@@ -1,7 +1,7 @@
 # EnclaveVault SDK for Swift Package Manager
 
 EnclaveVaultSDK as a Swift package: one library product backed by the signed binary
-XCFramework. iOS 17 or later. Each Sentinel Den SDK has a package of its own,
+XCFramework. iOS 18 or later. Each Sentinel Den SDK has a package of its own,
 so a project downloads only the SDKs it adds, and your license has to cover
 each one you add.
 
@@ -37,7 +37,7 @@ In a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/sentinelden/enclavevault-spm", from: "2.0.0"),
+    .package(url: "https://github.com/sentinelden/enclavevault-spm", from: "3.0.0"),
 ],
 targets: [
     .target(name: "App", dependencies: [
