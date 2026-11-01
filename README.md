@@ -37,7 +37,7 @@ In a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/sentinelden/enclavevault-spm", from: "1.6.4"),
+    .package(url: "https://github.com/sentinelden/enclavevault-spm", from: "2.0.0"),
 ],
 targets: [
     .target(name: "App", dependencies: [
