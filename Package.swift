@@ -15,9 +15,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "EnclaveVaultSDK",   // 3.0.0
-            url: "https://api.sentinelden.com/spm/enclavevault_sdk/3.0.0/EnclaveVaultSDK.xcframework.zip",
-            checksum: "04690569a930565f3bf28f132732cee44cc982a8540661c2d04004eeb4eb74c6"
+            name: "EnclaveVaultSDK",   // 3.0.1
+            url: "https://api.sentinelden.com/spm/enclavevault_sdk/3.0.1/EnclaveVaultSDK.xcframework.zip",
+            checksum: "33f444bf5eb58f30449c9224054fcaa4076b66b62ada44cfd54e8eaf84f05541"
         ),
     ]
 )
